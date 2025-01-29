@@ -1,3 +1,34 @@
+
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #032B44   ;
+  --secondary-color: #666666 ;
+  --accent1-color: #FFA07A;
+  --accent2-color: white;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "IM Fell French Canon";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #396E94  ;
+  --nav-link-color: #396E94;
+  --nav-background-color: #D4AC0D;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #0097A7;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
 /* General Reset */
 * {
     margin: 0;
@@ -38,6 +69,12 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #FFD700;
+}logo {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+    display: inline-block; /* ensure the logo is displayed as an inline block */
+    vertical-align: middle; /* center the logo vertically */
 }
 
 .hero {
